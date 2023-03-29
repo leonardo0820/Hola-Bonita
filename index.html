@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola Bonita</title>
+	<!-- Agrega la fuente de iconos Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body {
+			background-color: #ffe6ea;
+			font-family: Arial, sans-serif;
+		}
+		
+		h1 {
+			color: #000000;
+			font-size: 48px;
+			text-align: center;
+			margin-top: 100px;
+		}
+		
+		.heart {
+			color: #d316c9;
+			font-size: 36px;
+			margin-left: 5px;
+			animation: beat 1s infinite;
+			display: inline-block;
+		}
+		
+		@keyframes beat {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.2);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- Agrega el mensaje de Hola Bonita y el icono de corazón -->
+	<h1>Hola Bonita<i class="fa fa-heart heart"></i></h1>
+</body>
+</html>
